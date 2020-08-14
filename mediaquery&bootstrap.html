@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--------------- BootStrap needs -------------->
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css">
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -----this is for font awesome icons -->
+  <!--------------- BootStrap needs -------------->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>MediaQuery&Bootstrap</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a href="mediaquery&bootstrap.html" class="navbar-brand"><mark style="border-radius: 5%;">MM</mark></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="mediaquery&bootstrap.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="bootstrapabout.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="bootstrapservices.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="bootstrapblog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="bootstrapcontact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="loginPage.html" class="nav-link">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading One</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti
+                reiciendis ratione quod aliquid inventore vero perspiciatis.</p>
+              <a href="loginPage.html" class="btn btn-danger btn-lg">Log In Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti
+                reiciendis ratione quod aliquid inventore vero perspiciatis.</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti
+                reiciendis ratione quod aliquid inventore vero perspiciatis.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <div id="home-icons" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+          <i class="fas fa-cog fa-3x mb-3"></i>
+          <h3>Turning Gears</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, unde.</p>
+
+        </div>
+        <div class="col-md-4">
+
+          <i class="fas fa-cloud fa-3x mb-3"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, perferendis!</p>
+
+        </div>
+        <div class="col-md-4">
+
+          <i class="fas fa-cart-plus fa-3x mb-3"></i>
+          <h3>Making Money</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, debitis.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bg-box" class=" text-center text-white">
+    <div class="dark-overlay py-5">
+      <div class="container">
+        <h1>Are You Ready to Get Started !?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus pariatur odio iure id labore,
+          accusantium voluptate eius unde soluta!</p>
+      </div>
+    </div>
+  </div>
+  <div id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>About Us:</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eum libero eveniet, saepe fugit deleniti sed
+            nesciunt ex similique quae.</p>
+          <div class="btn btn-outline-danger">LEARN MORE</div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" alt="Laptop" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="what-we-do" class="text-white text-center">
+    <div class="dark-overlay py-5">
+      <i class="fas fa-play fa-5x"></i>
+      <h3>See What We Do !!</h3>
+    </div>
+  </div>
+  <div id="gallery" class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Photo Gallery</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, consequuntur?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel1.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel3.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel5.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3">
+          <img src="img/carousel5.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="newsletter" class="mt-5 bg-dark text-center text-white py-5">
+    <div class="container">
+      <h3>Sign up to follow our newsletters:</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque assumenda ducimus neque distinctio cum!</p>
+      <form class="form-inline justify-content-center">
+        <input type="text" class="form-control mr-3" placeholder="Your Email">
+        <input type="text" class="form-control mr-3" placeholder="Your Name">
+        <button class="btn btn-primary">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year">2020</span> <span class="mmlogo">MM </span><br>developed by Musobek Madrimov <br>(with the
+            help of BootStrap v.4.4)</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
